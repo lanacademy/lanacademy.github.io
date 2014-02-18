@@ -209,14 +209,15 @@ hr {
     transition: all .1s ease-in-out;
 }
 #headerwrap {
-    background: url(../img/header-bg1.jpg) no-repeat center top;
+    background: url(../img/square.png) repeat;
     margin-top: -10px;
     padding-top: 20px;
     text-align: center;
-    background-attachment: relative;
-    background-position: center center;
     min-height: 750px;
     width: 100%;
+    /*background: url(../img/header-bg1.jpg) no-repeat center top;
+    background-attachment: relative;
+    background-position: center center;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -224,7 +225,7 @@ hr {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover;*/
 }
 #headerwrap h1 {
     margin-top: 130px;
@@ -251,14 +252,15 @@ hr {
     padding: 0;
 }
 #serviceswrap {
-    background: url(../img/services-bg.jpg) no-repeat center top;
+    background: url(../img/square.png) repeat;	
     margin-top: -10px;
     padding-top: 20px;
     text-align: center;
+    min-height: 300px;
+    width: 100%;
+    /*background: url(../img/services-bg.jpg) no-repeat center top;
     background-attachment: relative;
     background-position: center center;
-    min-height: 500px;
-    width: 100%;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -266,14 +268,14 @@ hr {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover;*/
 }
 #serviceswrap h2 {
     color: #fff;
     font-size: 50px;
     font-weight: 400;
     letter-spacing: 2px;
-    margin-top: 150px;
+    margin-top: 100px;
 }
 #aboutwrap {
     background: url(../img/about-bg.jpg) no-repeat center top;
@@ -390,6 +392,9 @@ hr {
 }
 #call p {
     color: #fff;
+}
+#call a {
+    color: #DD6262;
 }
 #sf {
     display: block;
