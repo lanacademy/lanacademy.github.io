@@ -37,7 +37,7 @@ p {
 
 /* Links */
 a {
-    color: #f85c37;
+    color: #852C2C;
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -49,8 +49,8 @@ a {
 
 a:hover,
 a:focus {
-    color: #7b7b7b;
-    text-decoration: none;
+    color: #852C2C;
+    text-decoration: underline;
     outline: 0;
 }
 
@@ -147,6 +147,17 @@ a:after {
 #section-topbar i {
 	font-size: 25px;
 }
+
+
+/* MY HEADER */
+
+.topnav {
+    background: rgba(255, 255, 255, 0.9); 
+}
+span.highlight {
+    color: rgb(175, 70, 70);
+}
+
 /*---------------------------------------------------
 	SECTION WRAPS
 ---------------------------------------------------*/
@@ -156,11 +167,11 @@ a:after {
 	background: url() no-repeat center top;
 	background-color: #AF4A4A;
 	margin-top: 0px;
-	padding-top:200px;
+	padding-top:150px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 500px;
+	min-height: 650px;
 	width: 100%;
 	
     -webkit-background-size: 100%;
@@ -237,7 +248,7 @@ a:after {
 
 #footwrap i {
 	padding-right: 8px;
-	color: #1abc9c;
+	color: #B65A5A;
 }
 
 /* Copyright Wrap */
@@ -265,14 +276,14 @@ a:after {
 }
 
 .desc t {
-	color: #34495e;
+	color: #5E3434;
 	font-weight: 700;
 }
 
 .desc imp {
 	padding: 6px;
 	color: white;
-	background: #34495e;
+	background: #CC9191;
 }
 
 .desc more {
