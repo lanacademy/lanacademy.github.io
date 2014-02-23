@@ -561,3 +561,13 @@ hr {
     opacity: 1;
 }
 }
+.big-fa {
+    text-align: center;
+    background: #E5EBE7;
+}
+.big-fa i {
+    font-size: 120px;
+    padding: 40px 0;
+    width: 100%;
+    color: #505050;
+}
