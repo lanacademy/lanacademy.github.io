@@ -276,7 +276,7 @@ span.highlight {
 }
 
 .desc t {
-	color: #5E3434;
+	color: #303030;
 	font-weight: 700;
 }
 
@@ -287,10 +287,17 @@ span.highlight {
 }
 
 .desc more {
-	color: #95a5a6;
+	color: #A2A2A2;
 }
 
 
 sm {
 	font-size: 12px;
+}
+.portfolio-item img {
+    width: 400px;
+    height: 270px;
+}
+.social-links a:hover {
+	text-decoration:none;
 }
